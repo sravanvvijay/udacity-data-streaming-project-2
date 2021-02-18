@@ -6,19 +6,19 @@ In this project, you will be provided with a real-world dataset, extracted from 
 
 <h3>Directory Layout</h3>
 <p>The project consists of directory, config and producer, kafka server.</p>
-<ul>
-├── config
-│   ├── server.properties
-│   ├── zookeeper.properties
-├── data_stream.py
-├── kafka_server.py
-├── police-department-calls-for-service.json
-├── producer_server.py
-├── radio_code.json
-├── README.md
-├── requirements.txt
-└── start.sh
-</ul>
+<p>
+.config
+.     server.properties
+.     zookeeper.properties
+.data_stream.py
+.kafka_server.py
+.police-department-calls-for-service.json
+.producer_server.py
+.radio_code.json
+.README.md
+.requirements.txt
+.start.sh
+</p> 
 
 <h3>Running and Testing</h3>
 This project requires creating topics, starting Zookeeper and Kafka server, and your Kafka bootstrap server. Use the commands below to start Zookeeper and Kafka server.
