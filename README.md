@@ -38,11 +38,12 @@ This project requires creating topics, starting Zookeeper and Kafka server, and 
 
 <h3>Questions</h3>
 <h4>Q1 - How did changing values on the SparkSession property parameters affect the throughput and latency of the data?</h4>
-<h5>They will change the parameters inputRowsPerSecond and processedRowsPerSecond</h5>
+         They will change the parameters inputRowsPerSecond and processedRowsPerSecond
 
 <h4>Q2 - What were the 2-3 most efficient SparkSession property key/value pairs? Through testing multiple variations on values, how can you tell these were the most optimal?</h4>
-<h5>We can follow SQL performance tuning and Tuning Spark to make hypertuning over the parameters spark.sql.shuffle.partitions, spark.streaming.kafka.maxRatePerPartition and spark.default.parallelism</h5>
+    We can follow SQL performance tuning and Tuning Spark to make hypertuning over the parameters spark.sql.shuffle.partitions, spark.streaming.kafka.maxRatePerPartition 
+    and spark.default.parallelism
 
-"spark.default.parallelism" : 1200
-"spark.sql.shuffle.partitions":10
-"spark.streaming.kafka.maxRatePerPartition":10
+    "spark.default.parallelism" : 1200
+    "spark.sql.shuffle.partitions":10
+    "spark.streaming.kafka.maxRatePerPartition":10
