@@ -4,8 +4,8 @@
 <p>
 In this project, you will be provided with a real-world dataset, extracted from Kaggle, on San Francisco crime incidents, and you will provide statistical analyses of the data using Apache Spark Structured Streaming. You will draw on the skills and knowledge you've learned in this course to create a Kafka server to produce data, and ingest data through Spark Structured Streaming.</p>
 
-Directory Layout
-The project consists of directory, config and producer, kafka server.
+<h3>Directory Layout</h3>
+<p>The project consists of directory, config and producer, kafka server.</p>
 
 ├── config
 │   ├── server.properties
@@ -19,7 +19,7 @@ The project consists of directory, config and producer, kafka server.
 ├── requirements.txt
 └── start.sh
 
-Running and Testing
+<h4>Running and Testing</h4>
 This project requires creating topics, starting Zookeeper and Kafka server, and your Kafka bootstrap server. Use the commands below to start Zookeeper and Kafka server.
 
 `/usr/bin/zookeeper-server-start config/zookeeper.properties`
