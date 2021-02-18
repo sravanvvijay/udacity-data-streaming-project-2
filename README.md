@@ -6,7 +6,7 @@ In this project, you will be provided with a real-world dataset, extracted from 
 
 <h3>Directory Layout</h3>
 <p>The project consists of directory, config and producer, kafka server.</p>
-
+<ul>
 ├── config
 │   ├── server.properties
 │   ├── zookeeper.properties
@@ -18,6 +18,7 @@ In this project, you will be provided with a real-world dataset, extracted from 
 ├── README.md
 ├── requirements.txt
 └── start.sh
+</ul>
 
 <h3>Running and Testing</h3>
 This project requires creating topics, starting Zookeeper and Kafka server, and your Kafka bootstrap server. Use the commands below to start Zookeeper and Kafka server.
